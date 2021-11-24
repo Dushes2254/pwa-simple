@@ -5,8 +5,8 @@
   "background_color": "#2196f3",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/pwa-simple/",
-  "start_url": "/",
+  "scope": ".",
+  "start_url": "https://dushes2254.github.io/pwa-simple/",
   "icons": [
     {
       "src": "icon.png",
