@@ -1,9 +1,5 @@
 const staticCacheName = 's-app-v1'
-const assetUrls = [
-  '/pwa-simple/index.html',
-  '/pwa-simple/script.js',
-  '/pwa-simple/style.css',
-]
+const assetUrls = ['index.html', 'script.js', 'style.css']
 
 self.addEventListener('install', async (event) => {
   const cache = await caches.open(staticCacheName)
