@@ -18,12 +18,8 @@
     // Check that service workers are supported
     if ('serviceWorker' in navigator) {
       // Use the window load event to keep the page load performant
-      window.addEventListener('load', async () => {
-        try {
-          await navigator.serviceWorker.register('/pwa-simple/sw.js');
-        } catch (e) {
-          console.log(e);
-        }
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js');
       });
     }
   </script>
